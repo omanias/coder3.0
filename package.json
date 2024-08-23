@@ -2,8 +2,12 @@
   "name": "unidad-6",
   "version": "1.0.0",
   "main": "index.js",
+   "engines": {
+    "node": "^14.17.0",
+    "npm": "10.2.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
